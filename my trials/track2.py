@@ -1,4 +1,4 @@
-print("Hello world")
+# Python-assignent
 def calculator():
     try:
         num1 = float(input("Enter the first number: "))
@@ -23,6 +23,5 @@ def calculator():
         print(f"{num1} {operation} {num2} = {result}")
     except ValueError:
         print("Invalid input. Please enter numeric values.")
-
-# Run the calculator function
+        
 calculator()
